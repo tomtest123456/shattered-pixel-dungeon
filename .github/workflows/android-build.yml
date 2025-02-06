@@ -3,7 +3,7 @@ name: Build Android APK
 on:
   push:
     branches:
-      - main  # Change to your branch if necessary
+      - master
   pull_request:
   workflow_dispatch:  # This enables the "Run workflow" button
 
