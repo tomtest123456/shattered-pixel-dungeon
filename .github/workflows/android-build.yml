@@ -5,6 +5,7 @@ on:
     branches:
       - main  # Change to your branch if necessary
   pull_request:
+  workflow_dispatch:  # This enables the "Run workflow" button
 
 jobs:
   build:
