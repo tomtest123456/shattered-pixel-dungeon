@@ -50,16 +50,29 @@ import com.shatteredpixel.shatteredpixeldungeon.items.armor.ClothArmor;
 import com.shatteredpixel.shatteredpixeldungeon.items.artifacts.CloakOfShadows;
 import com.shatteredpixel.shatteredpixeldungeon.items.bags.VelvetPouch;
 import com.shatteredpixel.shatteredpixeldungeon.items.food.Food;
-import com.shatteredpixel.shatteredpixeldungeon.items.potions.PotionOfHealing;
-import com.shatteredpixel.shatteredpixeldungeon.items.potions.PotionOfInvisibility;
+import com.shatteredpixel.shatteredpixeldungeon.items.potions.PotionOfToxicGas;
 import com.shatteredpixel.shatteredpixeldungeon.items.potions.PotionOfLiquidFlame;
+import com.shatteredpixel.shatteredpixeldungeon.items.potions.PotionOfParalyticGas;
+import com.shatteredpixel.shatteredpixeldungeon.items.potions.PotionOfFrost;
+import com.shatteredpixel.shatteredpixeldungeon.items.potions.PotionOfPurity;
+import com.shatteredpixel.shatteredpixeldungeon.items.potions.PotionOfLevitation;
+import com.shatteredpixel.shatteredpixeldungeon.items.potions.PotionOfInvisibility;
 import com.shatteredpixel.shatteredpixeldungeon.items.potions.PotionOfMindVision;
+import com.shatteredpixel.shatteredpixeldungeon.items.potions.PotionOfExperience;
 import com.shatteredpixel.shatteredpixeldungeon.items.potions.PotionOfStrength;
+import com.shatteredpixel.shatteredpixeldungeon.items.potions.PotionOfHealing;
+import com.shatteredpixel.shatteredpixeldungeon.items.potions.PotionOfHaste;
 import com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfIdentify;
 import com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfLullaby;
 import com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfMagicMapping;
 import com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfMirrorImage;
+import com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfRetribution;
 import com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfRage;
+import com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfRecharging;
+import com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfRemoveCurse;
+import com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfTeleportation;
+import com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfTerror;
+import com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfTransmutation;
 import com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfUpgrade;
 import com.shatteredpixel.shatteredpixeldungeon.items.wands.WandOfMagicMissile;
 import com.shatteredpixel.shatteredpixeldungeon.items.weapon.SpiritBow;
@@ -182,8 +195,31 @@ public enum HeroClass {
 
 		Dungeon.quickslot.setSlot(0, staff);
 
-		new ScrollOfUpgrade().identify();
+		new PotionOfToxicGas().identify();
 		new PotionOfLiquidFlame().identify();
+		new PotionOfParalyticGas().identify();
+		new PotionOfFrost().identify();
+		new PotionOfPurity().identify();
+		new PotionOfLevitation().identify();
+		new PotionOfInvisibility().identify();
+		new PotionOfMindVision().identify();
+		new PotionOfExperience().identify();
+		new PotionOfStrength().identify();
+		new PotionOfHealing().identify();
+		new PotionOfHaste().identify();
+		new ScrollOfIdentify().identify();
+		new ScrollOfLullaby().identify();
+		new ScrollOfMagicMapping().identify();
+		new ScrollOfMirrorImage().identify();
+		new ScrollOfRetribution().identify();
+		new ScrollOfRage().identify();
+		new ScrollOfRecharging().identify();
+		new ScrollOfRemoveCurse().identify();
+		new ScrollOfTeleportation().identify();
+		new ScrollOfTerror().identify();
+		new ScrollOfTransmutation().identify();
+		new ScrollOfUpgrade().identify();
+
 	}
 
 	private static void initRogue( Hero hero ) {
@@ -199,8 +235,33 @@ public enum HeroClass {
 		Dungeon.quickslot.setSlot(0, cloak);
 		Dungeon.quickslot.setSlot(1, knives);
 
-		new ScrollOfMagicMapping().identify();
+
+		new PotionOfToxicGas().identify();
+		new PotionOfLiquidFlame().identify();
+		new PotionOfParalyticGas().identify();
+		new PotionOfFrost().identify();
+		new PotionOfPurity().identify();
+		new PotionOfLevitation().identify();
 		new PotionOfInvisibility().identify();
+		new PotionOfMindVision().identify();
+		new PotionOfExperience().identify();
+		new PotionOfStrength().identify();
+		new PotionOfHealing().identify();
+		new PotionOfHaste().identify();
+		new ScrollOfIdentify().identify();
+		new ScrollOfLullaby().identify();
+		new ScrollOfMagicMapping().identify();
+		new ScrollOfMirrorImage().identify();
+		new ScrollOfRetribution().identify();
+		new ScrollOfRage().identify();
+		new ScrollOfRecharging().identify();
+		new ScrollOfRemoveCurse().identify();
+		new ScrollOfTeleportation().identify();
+		new ScrollOfTerror().identify();
+		new ScrollOfTransmutation().identify();
+		new ScrollOfUpgrade().identify();
+
+	}
 	}
 
 	private static void initHuntress( Hero hero ) {
@@ -211,8 +272,33 @@ public enum HeroClass {
 
 		Dungeon.quickslot.setSlot(0, bow);
 
+
+		new PotionOfToxicGas().identify();
+		new PotionOfLiquidFlame().identify();
+		new PotionOfParalyticGas().identify();
+		new PotionOfFrost().identify();
+		new PotionOfPurity().identify();
+		new PotionOfLevitation().identify();
+		new PotionOfInvisibility().identify();
 		new PotionOfMindVision().identify();
+		new PotionOfExperience().identify();
+		new PotionOfStrength().identify();
+		new PotionOfHealing().identify();
+		new PotionOfHaste().identify();
+		new ScrollOfIdentify().identify();
 		new ScrollOfLullaby().identify();
+		new ScrollOfMagicMapping().identify();
+		new ScrollOfMirrorImage().identify();
+		new ScrollOfRetribution().identify();
+		new ScrollOfRage().identify();
+		new ScrollOfRecharging().identify();
+		new ScrollOfRemoveCurse().identify();
+		new ScrollOfTeleportation().identify();
+		new ScrollOfTerror().identify();
+		new ScrollOfTransmutation().identify();
+		new ScrollOfUpgrade().identify();
+
+	}
 	}
 
 	private static void initDuelist( Hero hero ) {
@@ -226,8 +312,33 @@ public enum HeroClass {
 		Dungeon.quickslot.setSlot(0, hero.belongings.weapon);
 		Dungeon.quickslot.setSlot(1, spikes);
 
+
+		new PotionOfToxicGas().identify();
+		new PotionOfLiquidFlame().identify();
+		new PotionOfParalyticGas().identify();
+		new PotionOfFrost().identify();
+		new PotionOfPurity().identify();
+		new PotionOfLevitation().identify();
+		new PotionOfInvisibility().identify();
+		new PotionOfMindVision().identify();
+		new PotionOfExperience().identify();
 		new PotionOfStrength().identify();
+		new PotionOfHealing().identify();
+		new PotionOfHaste().identify();
+		new ScrollOfIdentify().identify();
+		new ScrollOfLullaby().identify();
+		new ScrollOfMagicMapping().identify();
 		new ScrollOfMirrorImage().identify();
+		new ScrollOfRetribution().identify();
+		new ScrollOfRage().identify();
+		new ScrollOfRecharging().identify();
+		new ScrollOfRemoveCurse().identify();
+		new ScrollOfTeleportation().identify();
+		new ScrollOfTerror().identify();
+		new ScrollOfTransmutation().identify();
+		new ScrollOfUpgrade().identify();
+
+	}
 	}
 
 	public String title() {
